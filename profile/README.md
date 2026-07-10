@@ -23,8 +23,8 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
 /plugin marketplace add dbhq-uk/marketplace
 ```
 
-- **[outlook](https://github.com/dbhq-uk/outlook)** - Microsoft 365 email and calendar for your agent: inbox, send, drafts, attachments, calendar and availability
-- **[trello](https://github.com/dbhq-uk/trello)** - Trello from your agent: boards, lists and cards, board digests, due-date radar and smart sorting
+- **[outlook](https://github.com/dbhq-uk/outlook-skill)** - Microsoft 365 email and calendar for your agent: inbox, send, drafts, attachments, calendar and availability
+- **[trello](https://github.com/dbhq-uk/trello-skill)** - Trello from your agent: boards, lists and cards, board digests, due-date radar and smart sorting
 - **[marketplace](https://github.com/dbhq-uk/marketplace)** - one-command install hub for every DBHQ skill
 
 ### About DBHQ
