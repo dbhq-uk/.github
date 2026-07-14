@@ -36,6 +36,10 @@ Public, regulated-grade reference projects - the DBHQ approach in code:
 - **[fca-handbook-assistant](https://github.com/dbhq-uk/fca-handbook-assistant)** - regulated-grade AI on Azure: grounded, cited compliance Q&A over the FCA Handbook. Full-stack .NET reference implementation
 - **[ai-landing-zone-starter](https://github.com/dbhq-uk/ai-landing-zone-starter)** - a secure Azure AI landing zone on Microsoft's official AVM module, with a decision log and a costed deploy and teardown
 
+### Diagnostics
+
+- **[spreadsheet-health-check](https://github.com/dbhq-uk/spreadsheet-health-check)** - is the spreadsheet your business runs on a risk? 17 checks for key-person dependency, hidden errors, macros, external links and the point where it stops scaling. Runs entirely in your browser, nothing is uploaded. Every release is hashed and provenance-attested, so you can verify the exact bundle that scored your workbook. **[Run it free](https://dbhq.uk/spreadsheet-health-check/)**
+
 ### Free, open tools for Claude Code & Codex
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install any skill:
