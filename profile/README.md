@@ -40,6 +40,10 @@ Public, regulated-grade reference projects - the DBHQ approach in code:
 
 - **[spreadsheet-health-check](https://github.com/dbhq-uk/spreadsheet-health-check)** - is the spreadsheet your business runs on a risk? 17 checks for key-person dependency, hidden errors, macros, external links and the point where it stops scaling. Runs entirely in your browser, nothing is uploaded. Every release is hashed and provenance-attested, so you can verify the exact bundle that scored your workbook. **[Run it free](https://dbhq.uk/spreadsheet-health-check/)**
 
+### Agent tooling
+
+- **[recall](https://github.com/dbhq-uk/recall)** - hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results
+
 ### Free, open tools for Claude Code & Codex
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install any skill:
@@ -48,7 +52,7 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
 /plugin marketplace add dbhq-uk/marketplace
 ```
 
-- **[outlook](https://github.com/dbhq-uk/outlook-skill)** - Microsoft 365 email and calendar for your agent: inbox, send, drafts, attachments, calendar and availability
+- **[outlook-graph](https://github.com/dbhq-uk/outlook-graph-skill)** - Microsoft 365 email and calendar for your agent: inbox, send, drafts, attachments, calendar and availability
 - **[trello](https://github.com/dbhq-uk/trello-skill)** - Trello from your agent: boards, lists and cards, board digests, due-date radar and smart sorting
 - **[marketplace](https://github.com/dbhq-uk/marketplace)** - one-command install hub for every DBHQ skill
 
