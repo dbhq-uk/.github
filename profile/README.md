@@ -15,17 +15,31 @@
 
 <p align="center">
   <a href="https://dbhq.uk">Website</a> &middot;
-  <a href="https://dbhq.uk/tools">Free tools</a> &middot;
-  <a href="https://dbhq.uk/skills">Skills</a> &middot;
+  <a href="https://dbhq.uk/tools/">Free tools</a> &middot;
+  <a href="https://dbhq.uk/skills/">Skills</a> &middot;
   <a href="https://www.linkedin.com/in/danielgrimes/">LinkedIn</a> &middot;
-  <a href="https://dbhq.uk/contact">Contact</a>
+  <a href="https://dbhq.uk/contact/">Contact</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMi4zOCAyMy4zNGExLjYyIDEuNjIgMCAwIDAgMS41NC0yLjE0di4wMDJMMTcuMzUgMS43NkExLjYyIDEuNjIgMCAwIDAgMTUuODIuNjU3SDguMThBMS42MiAxLjYyIDAgMCAwIDYuNjUgMS43NkwuMDg2IDIxLjJhMS42MiAxLjYyIDAgMCAwIDEuNTQgMi4xNGg0Ljc0YTEuNjIgMS42MiAwIDAgMCAxLjUzLTEuMWwuOTc3LTIuODkgNC45NSAzLjY3Yy4yOC4yMS42MTguMzIuOTY2LjMybS0zLjA4LTEyLjUzIDMuNjIgMTAuNzRhLjU0LjU0IDAgMCAxLS41MS43MXYtLjAwMWgtLjAzYS41NC41NCAwIDAgMS0uMzIyLS4xMDZsLTkuMjktNi45aDQuODVtNi4zMSA3LjAxYy4xMTYtLjMyNi4xMy0uNjk0LjAxLTEuMDZMOS43OSAxLjc2YTEuNzIgMS43MiAwIDAgMC0uMDA3LS4wMmg2LjAzYS41NC41NCAwIDAgMSAuNTEyLjM3bDYuNTYgMTkuNDVhLjU0LjU0IDAgMCAxLS4zMzguNjgiLz48L3N2Zz4=&logoColor=white" alt="Azure">
   <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
-  <img src="https://img.shields.io/badge/Claude%20Code%20%26%20Codex-2B6BF3?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code & Codex">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/C%23-68217A?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xLjE5IDcuNTR2OC45MWMwIDEuMS41ODggMi4xMiAxLjU0IDIuNjdsNy43MiA0LjQ2YTMuMDkgMy4wOSAwIDAgMCAzLjA5IDBsNy43Mi00LjQ2YTMuMDkgMy4wOSAwIDAgMCAxLjU0LTIuNjdWNy41NGEzLjA4IDMuMDggMCAwIDAtMS41NC0yLjY3TDEzLjU0LjQxNGEzLjA5IDMuMDkgMCAwIDAtMy4wOSAwTDIuNzQgNC44N2EzLjA4IDMuMDggMCAwIDAtMS41NCAyLjY3Wm01LjQgMi45MXYzLjA5YS43Ny43NyAwIDAgMCAuNzcyLjc3Ljc3My43NyAwIDAgMCAuNzcyLS43NzIuNzcuNzczIDAgMCAxIDEuMzItLjU0Ni43Ny43NzUgMCAwIDEgLjIyNi41NSAyLjMxIDIuMzEgMCAxIDEtNC42MyAwdi0zLjA5YzAtLjYxNS4yNC0xLjIuNjc5LTEuNjRhMi4zMSAyLjMxIDAgMCAxIDMuMjcgMGMuNDM0LjQzLjY3OCAxLjAyLjY3OCAxLjY0YS43NjkuNzcgMCAwIDEtLjIyNi41NC43NjcuNzcgMCAwIDEtMS4wOSAwIC43Ny43NyAwIDAgMS0uMjI2LS41NDUuNzcuNzcgMCAwIDAtLjc3Mi0uNzcyLjc3Ljc3MSAwIDAgMC0uNzcyLjc3Wm0xMi4zNSAzLjA5YS43Ny43NyAwIDAgMS0uNzcyLjc3aC0uNzcydi43NzJhLjc3My43NyAwIDAgMS0xLjU0IDB2LS43NzJoLTEuNTR2Ljc3MmEuNzczLjc3IDAgMCAxLTEuMzIuNTQ2Ljc3Ljc3NSAwIDAgMS0uMjI2LS41NDZ2LS43NzJIMTJhLjc3MS43NyAwIDEgMSAwLTEuNTRoLjc3MnYtMS41NEgxMmEuNzcuNzcgMCAxIDEgMC0xLjU0aC43NzJ2LS43NzJhLjc3My43NyAwIDAgMSAxLjMyLS41NDYuNzcuNzc1IDAgMCAxIC4yMjYuNTV2Ljc3MmgxLjU0di0uNzcyYS43NzMuNzcgMCAwIDEgMS41NCAwdi43NzJoLjc3MmEuNzcyLjc3IDAgMCAxIDAgMS41NGgtLjc3MnYxLjU0aC43NzJhLjc3Ni43OCAwIDAgMSAuNzcyLjc3Wm0tMy4wOS0yLjMxaC0xLjU0djEuNTRoMS41NHYtMS41NFoiLz48L3N2Zz4=&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMi4yOCA5LjgyYTUuOTggNS45OCAwIDAgMC0uNTE1Ny00LjkxIDYuMDUgNi4wNSAwIDAgMC02LjUxLTIuOUE2LjA3IDYuMDcgMCAwIDAgNC45OCA0LjE4YTUuOTggNS45OCAwIDAgMC00IDIuOSA2LjA1IDYuMDUgMCAwIDAgLjc0MjcgNy4xIDUuOTggNS45OCAwIDAgMCAuNTExIDQuOTEgNi4wNSA2LjA1IDAgMCAwIDYuNTEgMi45QTUuOTggNS45OCAwIDAgMCAxMy4yNiAyNGE2LjA2IDYuMDYgMCAwIDAgNS43Ny00LjIxIDUuOTkgNS45OSAwIDAgMCA0LTIuOSA2LjA2IDYuMDYgMCAwIDAtLjc0NzUtNy4wN3ptLTkuMDIgMTIuNjFhNC40OCA0LjQ4IDAgMCAxLTIuODgtMS4wNGwuMTQxOS0uMDgwNCA0Ljc4LTIuNzZhLjc5NDguNzkgMCAwIDAgLjM5MjctLjY4MTN2LTYuNzRsMi4wMiAxLjE3YS43MS4wNyAwIDAgMSAuMzguMDV2NS41OGE0LjUgNC41IDAgMCAxLTQuNDkgNC40OXptLTkuNjYtNC4xM2E0LjQ3IDQuNDcgMCAwIDEtLjUzNDYtMy4wMWwuMTQyLjA5IDQuNzggMi43NmEuNzcxMi43NyAwIDAgMCAuNzgwNiAwbDUuODQtMy4zN3YyLjMzYS44MDQuMDggMCAwIDEtLjMzMi4wNkw5Ljc0IDE5Ljk1YTQuNSA0LjUgMCAwIDEtNi4xNC0xLjY1ek0yLjM0IDcuOWE0LjQ5IDQuNDkgMCAwIDEgMi4zNy0xLjk3VjExLjZhLjc2NjQuNzcgMCAwIDAgLjM4NzkuNjhsNS44MSAzLjM1LTIuMDIgMS4xN2EuNzU3LjA4IDAgMCAxLS4wNzEgMGwtNC44My0yLjc5QTQuNSA0LjUgMCAwIDEgMi4zNCA3Ljg3em0xNi42IDMuODZMMTMuMSA4LjM2IDE1LjEyIDcuMmEuNzU3LjA4IDAgMCAxIC4wNzEgMGw0LjgzIDIuNzlhNC40OSA0LjQ5IDAgMCAxLS42NzY1IDguMXYtNS42OGEuNzkuNzkgMCAwIDAtLjQwNy0uNjY3em0yLjAxLTMuMDJsLS4xNDItLjA4NTItNC43Ny0yLjc4YS43NzU5Ljc4IDAgMCAwLS43ODU0IDBMOS40MSA5LjIzVjYuOWEuNjYyLjA3IDAgMCAxIC4wMjg0LS4wNjE1bDQuODMtMi43OWE0LjUgNC41IDAgMCAxIDYuNjggNC42NnpNOC4zMSAxMi44NmwtMi4wMi0xLjE2YS44MDQuMDggMCAwIDEtLjAzOC0uMDU2N1Y2LjA3YTQuNSA0LjUgMCAwIDEgNy4zOC0zLjQ1bC0uMTQyLjA4TDguNyA1LjQ2YS43OTQ4Ljc5IDAgMCAwLS4zOTI3LjY4em0xLjEtMi4zN2wyLjYtMS41IDIuNjEgMS41djNsLTIuNiAxLjUtMi42MS0xLjVaIi8%2BPC9zdmc%2B&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/MCP-6B7280?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP">
 </p>
 
 ---
@@ -45,7 +59,7 @@ Public, regulated-grade reference projects - the DBHQ approach in code:
 
 - **[recall](https://github.com/dbhq-uk/recall)** - hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results
 
-### Free, open tools for Claude Code & Codex
+### Free, open skills for Claude Code & Codex
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install any skill:
 
@@ -53,12 +67,14 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
 /plugin marketplace add dbhq-uk/marketplace
 ```
 
-- **[outlook-graph](https://github.com/dbhq-uk/outlook-graph-skill)** - Microsoft 365 email and calendar for your agent: inbox, send, drafts, attachments, calendar and availability - plus PST and live-mail extraction into markdown archives that stay current
-- **[trello](https://github.com/dbhq-uk/trello-skill)** - Trello from your agent: boards, lists and cards, board digests, due-date radar and smart sorting
-- **[legwork](https://github.com/dbhq-uk/legwork-skill)** - decision research where every claim states how well it is supported. A source is judged by the claim it backs rather than by its domain, and it says plainly when the evidence cannot settle the question
-- **[dovetail](https://github.com/dbhq-uk/dovetail-skill)** - does your repository still agree with itself? Broken links, orphaned files, docs describing behaviour the code no longer has, and two documents that cannot both be right. Deterministic where it can be, so it is safe to fail a build on
-- **[vela](https://github.com/dbhq-uk/vela-skill)** - compiler-exact code search for .NET: where a symbol is defined, every reference, who calls it, what a change breaks. Roslyn-backed, so Razor views and Blazor components are indexed rather than skipped
-- **[verve](https://github.com/dbhq-uk/verve-skill)** - strips AI tells from prose and puts a human voice back, in British English. Prose only: no scripts, no packages, no network call
+| | Skill | What it does |
+|:--:|:--|:--|
+| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-outlook-graph-240.png" alt="" width="40"> | **[outlook-graph](https://github.com/dbhq-uk/outlook-graph-skill)** | Microsoft 365 mail and calendar from your agent: inbox, send, drafts, attachments, availability - plus PST archives extracted to markdown |
+| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-trello-240.png" alt="" width="40"> | **[trello](https://github.com/dbhq-uk/trello-skill)** | Boards, lists and cards end to end, plus a board digest, a due-date radar for what is slipping, and smart sorting |
+| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-legwork-240.png" alt="" width="40"> | **[legwork](https://github.com/dbhq-uk/legwork-skill)** | Decision research where every claim states how well it is supported - and a run that settles nothing says so |
+| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-dovetail-240.png" alt="" width="40"> | **[dovetail](https://github.com/dbhq-uk/dovetail-skill)** | Does your repository still agree with itself? Dead links, orphaned files, docs describing behaviour the code no longer has |
+| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-verve-240.png" alt="" width="40"> | **[verve](https://github.com/dbhq-uk/verve-skill)** | Strips AI tells from prose and puts a human voice back, in British English. Every figure, name and claim survives untouched |
+| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-vela-240.png" alt="" width="40"> | **[vela](https://github.com/dbhq-uk/vela-skill)** | Compiler-exact code search for .NET: definitions, references, callers, change impact. Roslyn-backed, so Razor and Blazor are indexed |
 
 All six install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command.
 
@@ -68,4 +84,4 @@ DBHQ is the engineering practice of Daniel Grimes - 26 years building software f
 
 **Need hands, not a hire?** Fixed-price delivery and senior-engineer retainers, remote-first from the UK.
 
-<p align="center"><strong><a href="https://dbhq.uk">dbhq.uk</a> &middot; <a href="https://dbhq.uk/contact">Let's talk</a></strong></p>
+<p align="center"><strong><a href="https://dbhq.uk">dbhq.uk</a> &middot; <a href="https://dbhq.uk/contact/">Let's talk</a></strong></p>
