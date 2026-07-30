@@ -67,14 +67,43 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
 /plugin marketplace add dbhq-uk/marketplace
 ```
 
-| | Skill | What it does |
-|:--:|:--|:--|
-| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-outlook-graph-240.png" alt="" width="40"> | **[outlook-graph](https://github.com/dbhq-uk/outlook-graph-skill)** | Microsoft 365 mail and calendar from your agent: inbox, send, drafts, attachments, availability - plus PST archives extracted to markdown |
-| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-trello-240.png" alt="" width="40"> | **[trello](https://github.com/dbhq-uk/trello-skill)** | Boards, lists and cards end to end, plus a board digest, a due-date radar for what is slipping, and smart sorting |
-| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-legwork-240.png" alt="" width="40"> | **[legwork](https://github.com/dbhq-uk/legwork-skill)** | Decision research where every claim states how well it is supported - and a run that settles nothing says so |
-| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-dovetail-240.png" alt="" width="40"> | **[dovetail](https://github.com/dbhq-uk/dovetail-skill)** | Does your repository still agree with itself? Dead links, orphaned files, docs describing behaviour the code no longer has |
-| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-verve-240.png" alt="" width="40"> | **[verve](https://github.com/dbhq-uk/verve-skill)** | Strips AI tells from prose and puts a human voice back, in British English. Every figure, name and claim survives untouched |
-| <img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-vela-240.png" alt="" width="40"> | **[vela](https://github.com/dbhq-uk/vela-skill)** | Compiler-exact code search for .NET: definitions, references, callers, change impact. Roslyn-backed, so Razor and Blazor are indexed |
+<table>
+  <thead>
+    <tr><th></th><th align="left">Skill</th><th align="left">What it does</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/outlook-graph-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-outlook-graph-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/outlook-graph-skill"><strong>outlook-graph</strong></a></td>
+    <td>Microsoft 365 mail and calendar from your agent: inbox, send, drafts, attachments, availability - plus PST archives extracted to markdown</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/trello-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-trello-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/trello-skill"><strong>trello</strong></a></td>
+    <td>Boards, lists and cards end to end, plus a board digest, a due-date radar for what is slipping, and smart sorting</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/legwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-legwork-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/legwork-skill"><strong>legwork</strong></a></td>
+    <td>Decision research where every claim states how well it is supported - and a run that settles nothing says so</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/dovetail-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-dovetail-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/dovetail-skill"><strong>dovetail</strong></a></td>
+    <td>Does your repository still agree with itself? Dead links, orphaned files, docs describing behaviour the code no longer has</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/verve-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-verve-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/verve-skill"><strong>verve</strong></a></td>
+    <td>Strips AI tells from prose and puts a human voice back, in British English. Every figure, name and claim survives untouched</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/vela-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-vela-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/vela-skill"><strong>vela</strong></a></td>
+    <td>Compiler-exact code search for .NET: definitions, references, callers, change impact. Roslyn-backed, so Razor and Blazor are indexed</td>
+  </tr>
+  </tbody>
+</table>
 
 All six install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command.
 
