@@ -46,10 +46,11 @@
 
 ### Reference implementations
 
-Public, regulated-grade reference projects - the DBHQ approach in code:
+Public reference projects - the DBHQ approach in code:
 
 - **[fca-handbook-assistant](https://github.com/dbhq-uk/fca-handbook-assistant)** - regulated-grade AI on Azure: grounded, cited compliance Q&A over the FCA Handbook. Full-stack .NET reference implementation
 - **[ai-landing-zone-starter](https://github.com/dbhq-uk/ai-landing-zone-starter)** - a secure Azure AI landing zone on Microsoft's official AVM module, with a decision log and a costed deploy and teardown
+- **[devcontainer-devops](https://github.com/dbhq-uk/devcontainer-devops)** - the whole DevOps toolchain in one container: Terraform, Terragrunt, Azure CLI, Kubernetes, Ansible, PowerShell, .NET and the coding agents. Built natively for Intel and Apple Silicon, rebuilt weekly, and every image ships an SBOM and signed build provenance you can verify
 
 ### Diagnostics
 
