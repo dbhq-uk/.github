@@ -44,22 +44,6 @@
 
 ---
 
-### Reference implementations
-
-Public reference projects - the DBHQ approach in code:
-
-- **[fca-handbook-assistant](https://github.com/dbhq-uk/fca-handbook-assistant)** - regulated-grade AI on Azure: grounded, cited compliance Q&A over the FCA Handbook. Full-stack .NET reference implementation
-- **[ai-landing-zone-starter](https://github.com/dbhq-uk/ai-landing-zone-starter)** - a secure Azure AI landing zone on Microsoft's official AVM module, with a decision log and a costed deploy and teardown
-- **[devcontainer-devops](https://github.com/dbhq-uk/devcontainer-devops)** - the whole DevOps toolchain in one container: Terraform, Terragrunt, Azure CLI, Kubernetes, Ansible, PowerShell, .NET and the coding agents. Built natively for Intel and Apple Silicon, rebuilt weekly, and every image ships an SBOM and signed build provenance you can verify
-
-### Diagnostics
-
-- **[spreadsheet-health-check](https://github.com/dbhq-uk/spreadsheet-health-check)** - is the spreadsheet your business runs on a risk? 17 checks for key-person dependency, hidden errors, macros, external links and the point where it stops scaling. Runs entirely in your browser, nothing is uploaded. Every release is hashed and provenance-attested, so you can verify the exact bundle that scored your workbook. **[Run it free](https://dbhq.uk/spreadsheet-health-check/)**
-
-### Agent tooling
-
-- **[recall](https://github.com/dbhq-uk/recall)** - hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results
-
 ### Free, open skills for Claude Code & Codex
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install any skill:
@@ -112,6 +96,22 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
 </table>
 
 All seven install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command.
+
+### Reference implementations
+
+Public reference projects - the DBHQ approach in code:
+
+- **[fca-handbook-assistant](https://github.com/dbhq-uk/fca-handbook-assistant)** - regulated-grade AI on Azure: grounded, cited compliance Q&A over the FCA Handbook. Full-stack .NET reference implementation
+- **[ai-landing-zone-starter](https://github.com/dbhq-uk/ai-landing-zone-starter)** - a secure Azure AI landing zone on Microsoft's official AVM module, with a decision log and a costed deploy and teardown
+- **[devcontainer-devops](https://github.com/dbhq-uk/devcontainer-devops)** - the whole DevOps toolchain in one container: Terraform, Terragrunt, Azure CLI, Kubernetes, Ansible, PowerShell, .NET and the coding agents. Built natively for Intel and Apple Silicon, rebuilt weekly, and every image ships an SBOM and signed build provenance you can verify
+
+### Diagnostics
+
+- **[spreadsheet-health-check](https://github.com/dbhq-uk/spreadsheet-health-check)** - is the spreadsheet your business runs on a risk? 17 checks for key-person dependency, hidden errors, macros, external links and the point where it stops scaling. Runs entirely in your browser, nothing is uploaded. Every release is hashed and provenance-attested, so you can verify the exact bundle that scored your workbook. **[Run it free](https://dbhq.uk/spreadsheet-health-check/)**
+
+### Agent tooling
+
+- **[recall](https://github.com/dbhq-uk/recall)** - hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results
 
 ### About DBHQ
 
