@@ -123,6 +123,7 @@ Public reference projects - the DBHQ approach in code:
 ### Diagnostics
 
 - **[spreadsheet-health-check](https://github.com/dbhq-uk/spreadsheet-health-check)** - is the spreadsheet your business runs on a risk? 17 checks for key-person dependency, hidden errors, macros, external links and the point where it stops scaling. Runs entirely in your browser, nothing is uploaded. Every release is hashed and provenance-attested, so you can verify the exact bundle that scored your workbook. **[Run it free](https://dbhq.uk/spreadsheet-health-check/)**
+- **[azure-war-taster](https://github.com/dbhq-uk/azure-war-taster)** - a headline Well-Architected score for an Azure estate, from Azure Advisor signal and the Defender secure score. Deterministic, read-only, no sign-up, and nothing leaves your tenant. It is honest about its ceiling: 40+ of Microsoft's 59 checklist items cannot be read off a machine, and it says so in every report. **[The full review](https://dbhq.uk/azure-well-architected-review/)**
 
 ### Agent tooling
 
