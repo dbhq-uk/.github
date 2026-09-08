@@ -44,30 +44,30 @@
 
 ---
 
-### heliograph - a toolkit, not a skill
+<p align="center">
+  <a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="heliograph" width="72"></a>
+</p>
 
-<table>
-<tr>
-<td width="80" align="center" valign="top"><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="56"></a></td>
-<td valign="top">
+<h3 align="center">heliograph</h3>
 
-**Remote, captured, auditable execution on a machine you cannot log into**
+<p align="center"><strong>Remote, captured, auditable execution on a machine you cannot log into</strong></p>
+
+<p align="center">
+  <a href="https://github.com/dbhq-uk/heliograph">Source</a> &middot;
+  <a href="https://heliograph.dbhq.uk">heliograph.dbhq.uk</a> &middot;
+  <a href="https://github.com/dbhq-uk/heliograph-relay">heliograph-relay</a> &middot;
+  MIT
+</p>
 
 Someone can reach the machine, you cannot, and you are the one who knows what to ask it. You publish a step, it runs on the far side, and the whole run comes back as a log with every line stamped in UTC - so a hang reads as a gap rather than as slow progress, and the log returns whether the run passed or failed. Nothing is installed on the far side: the station is plain bash the operator can read before running it, and it does not tunnel, proxy or hold a connection open to anything.
 
-[**dbhq-uk/heliograph**](https://github.com/dbhq-uk/heliograph) &middot; [Documentation](https://heliograph.dbhq.uk) &middot; [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) &middot; MIT
+A toolkit rather than a single tool, and the agent skill is one part of it:
 
-</td>
-</tr>
-</table>
-
-| | |
-|---|---|
-| **CLI** | One static Go binary, no runtime, carrying the station payload it was built with |
-| **Station** | The far side, in plain bash - Bash 4, git and coreutils, and no Go will ever appear in it |
-| **Relay** | Both sides dial out over ordinary HTTPS, and it cannot read a byte of what it carries |
-| **MCP server** | The same commands as typed tools, for an agent running the investigation itself |
-| **Agent skill** | Drives the CLI from Claude Code or Codex, and installs from the marketplace below |
+- **CLI** - one static Go binary, no runtime, carrying the station payload it was built with
+- **Station** - the far side, in plain bash. Bash 4, git and coreutils, and no Go will ever appear in it
+- **Relay** - both sides dial out over ordinary HTTPS, and it cannot read a byte of what it carries
+- **MCP server** - the same commands as typed tools, for an agent running the investigation itself
+- **Agent skill** - drives the CLI from Claude Code or Codex, and installs from the marketplace below
 
 ### Free, open skills for Claude Code & Codex
 
