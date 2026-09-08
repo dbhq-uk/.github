@@ -74,7 +74,7 @@ Hybrid BM25 + vector search over your notes and code, spoken to your coding agen
 
 [**dbhq-uk/recall**](https://github.com/dbhq-uk/recall) &middot; MIT
 
-### Free, open skills for Claude Code & Codex
+### Agent Skills
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install:
 
