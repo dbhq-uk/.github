@@ -68,12 +68,6 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 
 [**dbhq-uk/heliograph**](https://github.com/dbhq-uk/heliograph) &middot; [heliograph.dbhq.uk](https://heliograph.dbhq.uk) &middot; [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) &middot; MIT
 
-#### recall
-
-Hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results.
-
-[**dbhq-uk/recall**](https://github.com/dbhq-uk/recall) &middot; MIT
-
 ### Agent Skills
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install:
