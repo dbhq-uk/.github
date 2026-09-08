@@ -50,7 +50,9 @@ DBHQ is the engineering practice of Daniel Grimes - 26 years building software f
 
 Everything below is public and free to use.
 
-<h3><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="26" align="top"></a> heliograph</h3>
+### Tools
+
+<h4><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="24" align="top"></a> heliograph</h4>
 
 **Remote, captured, auditable execution on a machine you cannot log into**
 
@@ -65,6 +67,12 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 - **Agent skill** - drives the CLI from Claude Code or Codex, and installs from the marketplace below
 
 [**dbhq-uk/heliograph**](https://github.com/dbhq-uk/heliograph) &middot; [heliograph.dbhq.uk](https://heliograph.dbhq.uk) &middot; [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) &middot; MIT
+
+#### recall
+
+Hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results.
+
+[**dbhq-uk/recall**](https://github.com/dbhq-uk/recall) &middot; MIT
 
 ### Free, open skills for Claude Code & Codex
 
@@ -141,10 +149,6 @@ Public reference projects - the DBHQ approach in code:
 
 - **[spreadsheet-health-check](https://github.com/dbhq-uk/spreadsheet-health-check)** - is the spreadsheet your business runs on a risk? 17 checks for key-person dependency, hidden errors, macros, external links and the point where it stops scaling. Runs entirely in your browser, nothing is uploaded. Every release is hashed and provenance-attested, so you can verify the exact bundle that scored your workbook. **[Run it free](https://dbhq.uk/spreadsheet-health-check/)**
 - **[azure-war-taster](https://github.com/dbhq-uk/azure-war-taster)** - a headline Well-Architected score for an Azure estate, from Azure Advisor signal and the Defender secure score. Deterministic, read-only, no sign-up, and nothing leaves your tenant. It is honest about its ceiling: 40+ of Microsoft's 59 checklist items cannot be read off a machine, and it says so in every report. **[The full review](https://dbhq.uk/azure-well-architected-review/)**
-
-### Agent tooling
-
-- **[recall](https://github.com/dbhq-uk/recall)** - hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results
 
 ---
 
