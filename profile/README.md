@@ -124,12 +124,7 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
   </tbody>
 </table>
 
-The first six install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill. **garmin** and **gpt-image-2** are not in it, and install directly:
-
-```
-npx skills add dbhq-uk/garmin-skill
-npx skills add dbhq-uk/gpt-image-2-skill
-```
+All eight install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill - `/plugin install <name>@dbhq`.
 
 ### Reference implementations
 
