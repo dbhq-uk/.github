@@ -88,8 +88,8 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
     <td>Compiler-exact code search for .NET: definitions, references, callers, change impact. Roslyn-backed, so Razor and Blazor are indexed</td>
   </tr>
   <tr>
-    <td align="center" width="64"><a href="https://github.com/dbhq-uk/heliograph-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-heliograph-240.png" alt="" width="40"></a></td>
-    <td nowrap><a href="https://github.com/dbhq-uk/heliograph-skill"><strong>heliograph</strong></a></td>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-heliograph-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/heliograph"><strong>heliograph</strong></a></td>
     <td>Debug a machine you cannot log into, through an operator who cannot debug it. Git carries the step out and the log back, timestamped</td>
   </tr>
   <tr>
