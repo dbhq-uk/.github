@@ -44,20 +44,15 @@
 
 ---
 
-<p align="center">
-  <a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="heliograph" width="72"></a>
-</p>
+DBHQ is the engineering practice of Daniel Grimes - 26 years building software for organisations where failure was expensive, across defence, banking, insurance, energy, commodities, healthcare and identity. The model is simple: AI does the heavy lifting; a senior engineer decides what to ask, what to build and what ships. The result is delivery in weeks, at production grade - robust, reliable and built to last.
 
-<h3 align="center">heliograph</h3>
+**Need hands, not a hire?** Fixed-price delivery and senior-engineer retainers, remote-first from the UK.
 
-<p align="center"><strong>Remote, captured, auditable execution on a machine you cannot log into</strong></p>
+Everything below is public and free to use.
 
-<p align="center">
-  <a href="https://github.com/dbhq-uk/heliograph">Source</a> &middot;
-  <a href="https://heliograph.dbhq.uk">heliograph.dbhq.uk</a> &middot;
-  <a href="https://github.com/dbhq-uk/heliograph-relay">heliograph-relay</a> &middot;
-  MIT
-</p>
+<h3><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="26" align="top"></a> heliograph</h3>
+
+**Remote, captured, auditable execution on a machine you cannot log into**
 
 Someone can reach the machine, you cannot, and you are the one who knows what to ask it. You publish a step, it runs on the far side, and the whole run comes back as a log with every line stamped in UTC - so a hang reads as a gap rather than as slow progress, and the log returns whether the run passed or failed. Nothing is installed on the far side: the station is plain bash the operator can read before running it, and it does not tunnel, proxy or hold a connection open to anything.
 
@@ -68,6 +63,8 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 - **Relay** - both sides dial out over ordinary HTTPS, and it cannot read a byte of what it carries
 - **MCP server** - the same commands as typed tools, for an agent running the investigation itself
 - **Agent skill** - drives the CLI from Claude Code or Codex, and installs from the marketplace below
+
+[**dbhq-uk/heliograph**](https://github.com/dbhq-uk/heliograph) &middot; [heliograph.dbhq.uk](https://heliograph.dbhq.uk) &middot; [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) &middot; MIT
 
 ### Free, open skills for Claude Code & Codex
 
@@ -149,10 +146,6 @@ Public reference projects - the DBHQ approach in code:
 
 - **[recall](https://github.com/dbhq-uk/recall)** - hybrid BM25 + vector search over your notes and code, spoken to your coding agent over MCP. Local-first, so nothing leaves the machine, and honest about every degradation - if half the search is not working, it says so rather than quietly returning worse results
 
-### About DBHQ
-
-DBHQ is the engineering practice of Daniel Grimes - 26 years building software for organisations where failure was expensive, across defence, banking, insurance, energy, commodities, healthcare and identity. The model is simple: AI does the heavy lifting; a senior engineer decides what to ask, what to build and what ships. The result is delivery in weeks, at production grade - robust, reliable and built to last.
-
-**Need hands, not a hire?** Fixed-price delivery and senior-engineer retainers, remote-first from the UK.
+---
 
 <p align="center"><strong><a href="https://dbhq.uk">dbhq.uk</a> &middot; <a href="https://dbhq.uk/contact/">Let's talk</a></strong></p>
