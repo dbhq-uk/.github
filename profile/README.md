@@ -44,6 +44,31 @@
 
 ---
 
+### heliograph - a toolkit, not a skill
+
+<table>
+<tr>
+<td width="80" align="center" valign="top"><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="56"></a></td>
+<td valign="top">
+
+**Remote, captured, auditable execution on a machine you cannot log into**
+
+Someone can reach the machine, you cannot, and you are the one who knows what to ask it. You publish a step, it runs on the far side, and the whole run comes back as a log with every line stamped in UTC - so a hang reads as a gap rather than as slow progress, and the log returns whether the run passed or failed. Nothing is installed on the far side: the station is plain bash the operator can read before running it, and it does not tunnel, proxy or hold a connection open to anything.
+
+[**dbhq-uk/heliograph**](https://github.com/dbhq-uk/heliograph) &middot; [Documentation](https://heliograph.dbhq.uk) &middot; [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) &middot; MIT
+
+</td>
+</tr>
+</table>
+
+| | |
+|---|---|
+| **CLI** | One static Go binary, no runtime, carrying the station payload it was built with |
+| **Station** | The far side, in plain bash - Bash 4, git and coreutils, and no Go will ever appear in it |
+| **Relay** | Both sides dial out over ordinary HTTPS, and it cannot read a byte of what it carries |
+| **MCP server** | The same commands as typed tools, for an agent running the investigation itself |
+| **Agent skill** | Drives the CLI from Claude Code or Codex, and installs from the marketplace below |
+
 ### Free, open skills for Claude Code & Codex
 
 Built from real delivery work, given away. Add the DBHQ marketplace, then install:
@@ -88,11 +113,6 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
     <td>Compiler-exact code search for .NET: definitions, references, callers, change impact. Roslyn-backed, so Razor and Blazor are indexed</td>
   </tr>
   <tr>
-    <td align="center" width="64"><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-heliograph-240.png" alt="" width="40"></a></td>
-    <td nowrap><a href="https://github.com/dbhq-uk/heliograph"><strong>heliograph</strong></a></td>
-    <td>Debug a machine you cannot log into, through an operator who cannot debug it. Git carries the step out and the log back, timestamped</td>
-  </tr>
-  <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/garmin-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-garmin-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/garmin-skill"><strong>garmin</strong></a></td>
     <td>Body Battery, sleep, activities and training load, answered in the conversation - or archived to markdown you keep. Credentials never leave your machine</td>
@@ -105,7 +125,7 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
   </tbody>
 </table>
 
-The first seven install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command. **garmin** and **gpt-image-2** are not in it, and install directly:
+The first six install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill. **garmin** and **gpt-image-2** are not in it, and install directly:
 
 ```
 npx skills add dbhq-uk/garmin-skill
