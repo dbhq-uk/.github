@@ -7,15 +7,16 @@
   </a>
 </p>
 
-<p align="center"><strong>Senior engineering, AI-accelerated</strong></p>
+<p align="center"><strong>Principal engineering, through to production</strong></p>
 
 <p align="center">
-  One senior engineer. A team of AI. Robust solutions to real business problems, in weeks.
+  Cloud, integration and software built to run. One principal engineer, 26 years.
 </p>
 
 <p align="center">
   <a href="https://dbhq.uk">Website</a> &middot;
-  <a href="https://dbhq.uk/tools/">Free tools</a> &middot;
+  <a href="https://dbhq.uk/diagnostics/">Diagnostics</a> &middot;
+  <a href="https://dbhq.uk/reference/">Reference</a> &middot;
   <a href="https://dbhq.uk/skills/">Skills</a> &middot;
   <a href="https://www.linkedin.com/in/danielgrimes/">LinkedIn</a> &middot;
   <a href="https://dbhq.uk/contact/">Contact</a>
@@ -44,9 +45,9 @@
 
 ---
 
-DBHQ is the engineering practice of Daniel Grimes - 26 years building software for organisations where failure was expensive, across defence, banking, insurance, energy, commodities, healthcare and identity. The model is simple: AI does the heavy lifting; a senior engineer decides what to ask, what to build and what ships. The result is delivery in weeks, at production grade - robust, reliable and built to last.
+DBHQ Consulting Ltd provides engineering delivery services led by Daniel Grimes - 26 years building software for organisations where failure was expensive, across defence, banking, insurance, energy, commodities, healthcare and identity. Cloud platforms, systems integration, data and application delivery, taken through to production and handed over.
 
-**Need hands, not a hire?** Fixed-price delivery and senior-engineer retainers, remote-first from the UK.
+**Need principal delivery?** Engage DBHQ directly, or bring it into your consultancy's programme under your brand. Remote-first from the UK.
 
 Everything below is public and free to use.
 
