@@ -118,8 +118,8 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
     <td>Body Battery, sleep, activities and training load, answered in the conversation - or archived to markdown you keep. Credentials never leave your machine</td>
   </tr>
   <tr>
-    <td align="center" width="64"><a href="https://github.com/dbhq-uk/gpt-image-2-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-gpt-image-2-240.png" alt="" width="40"></a></td>
-    <td nowrap><a href="https://github.com/dbhq-uk/gpt-image-2-skill"><strong>gpt-image-2</strong></a></td>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/imager-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-imager-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/imager-skill"><strong>imager</strong></a></td>
     <td>Generate and edit images with OpenAI's GPT Image 2. Iterate on drafts at a fraction of a penny, then pay once for the one you approved</td>
   </tr>
   <tr>
