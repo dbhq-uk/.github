@@ -122,10 +122,15 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
     <td nowrap><a href="https://github.com/dbhq-uk/gpt-image-2-skill"><strong>gpt-image-2</strong></a></td>
     <td>Generate and edit images with OpenAI's GPT Image 2. Iterate on drafts at a fraction of a penny, then pay once for the one you approved</td>
   </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/devskills"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-devskills-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/devskills"><strong>devskills</strong></a></td>
+    <td>Which branches are finished and safe to delete, computed rather than inferred from a commit count a squash-merge makes meaningless - plus Jira issues created and read</td>
+  </tr>
   </tbody>
 </table>
 
-All eight install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill - `/plugin install <name>@dbhq`.
+They install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill - `/plugin install <name>@dbhq`.
 
 ### Reference implementations
 
