@@ -67,11 +67,11 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 - **MCP server** - the same commands as typed tools, for an agent running the investigation itself
 - **Agent skill** - drives the CLI from Claude Code or Codex, and installs from the marketplace below
 
-[**dbhq-uk/heliograph**](https://github.com/dbhq-uk/heliograph) &middot; [heliograph.dbhq.uk](https://heliograph.dbhq.uk) &middot; [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) &middot; MIT
+[**heliograph-io/heliograph**](https://github.com/heliograph-io/heliograph) &middot; [docs.heliograph.io](https://docs.heliograph.io) &middot; [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) &middot; MIT
 
 ### Agent Skills
 
-Built from real delivery work, given away. Add the DBHQ marketplace, then install:
+Fourteen of them, built from real delivery work and given away. Every one is documented at **[skills.dbhq.uk](https://skills.dbhq.uk)**. Add the DBHQ marketplace once, then install any of them:
 
 ```
 /plugin marketplace add dbhq-uk/marketplace
@@ -83,8 +83,8 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
   </thead>
   <tbody>
   <tr>
-    <td align="center" width="64"><a href="https://github.com/dbhq-uk/outlook-graph-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-outlook-graph-240.png" alt="" width="40"></a></td>
-    <td nowrap><a href="https://github.com/dbhq-uk/outlook-graph-skill"><strong>outlook-graph</strong></a></td>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/outlook-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-outlook-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/outlook-skill"><strong>outlook</strong></a></td>
     <td>Microsoft 365 mail and calendar from your agent: inbox, send, drafts, attachments, availability - plus PST archives extracted to markdown</td>
   </tr>
   <tr>
@@ -123,14 +123,39 @@ Built from real delivery work, given away. Add the DBHQ marketplace, then instal
     <td>Generate and edit images with OpenAI's GPT Image 2. Iterate on drafts at a fraction of a penny, then pay once for the one you approved</td>
   </tr>
   <tr>
-    <td align="center" width="64"><a href="https://github.com/dbhq-uk/devskills"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-devskills-240.png" alt="" width="40"></a></td>
-    <td nowrap><a href="https://github.com/dbhq-uk/devskills"><strong>devskills</strong></a></td>
-    <td>Which branches are finished and safe to delete, computed rather than inferred from a commit count a squash-merge makes meaningless - plus Jira issues created and read</td>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/gitview-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-gitview-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/gitview-skill"><strong>gitview</strong></a></td>
+    <td>Which branches are finished and safe to delete, computed by test-merging rather than inferred from a commit count a squash-merge makes meaningless</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/atlassian-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-atlassian-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/atlassian-skill"><strong>atlassian</strong></a></td>
+    <td>Jira issues raised and read, and Confluence pages searched, written and updated - over the REST API with an API token and no MCP server</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/pennyblack-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-pennyblack-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/pennyblack-skill"><strong>pennyblack</strong></a></td>
+    <td>Put a PDF in the post. Printed in the UK, delivered by Royal Mail, priced and previewed before it spends, with the tracking number handed back</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/buildwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-buildwork-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/buildwork-skill"><strong>buildwork</strong></a></td>
+    <td>Runs a repository's open issues as parallel agents - one per issue, each in its own worktree and its own pull request - then proposes a merge order. Never merges</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/deskwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-deskwork-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/deskwork-skill"><strong>deskwork</strong></a></td>
+    <td>Files what an agent noticed as a tracked issue, keeps the dependency graph honest, and writes a roadmap into git that you can disagree with</td>
+  </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/groupwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-groupwork-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/groupwork-skill"><strong>groupwork</strong></a></td>
+    <td>Puts a second agent on the work, as an adversary or as a partner. What each pattern is refused is enforced in code, so a citation cannot overclaim</td>
   </tr>
   </tbody>
 </table>
 
-They install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill - `/plugin install <name>@dbhq`.
+They install from the [marketplace](https://github.com/dbhq-uk/marketplace) in one command, as does heliograph's skill - `/plugin install <name>@dbhq`. Full documentation, and what each one deliberately does not do, is at [skills.dbhq.uk](https://skills.dbhq.uk).
 
 ### Reference implementations
 
