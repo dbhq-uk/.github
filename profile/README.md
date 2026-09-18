@@ -152,6 +152,11 @@ Fourteen of them, built from real delivery work and given away. Every one is doc
     <td nowrap><a href="https://github.com/dbhq-uk/groupwork-skill"><strong>groupwork</strong></a></td>
     <td>Puts a second agent on the work, as an adversary or as a partner. What each pattern is refused is enforced in code, so a citation cannot overclaim</td>
   </tr>
+  <tr>
+    <td align="center" width="64"><a href="https://github.com/dbhq-uk/headwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-headwork-240.png" alt="" width="40"></a></td>
+    <td nowrap><a href="https://github.com/dbhq-uk/headwork-skill"><strong>headwork</strong></a></td>
+    <td>Puts the decision blocking you as one question, in plain English, with every option carrying its reasoning and one of them named as the recommendation</td>
+  </tr>
   </tbody>
 </table>
 
