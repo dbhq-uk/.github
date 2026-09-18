@@ -17,7 +17,7 @@
   <a href="https://dbhq.uk">Website</a> &middot;
   <a href="https://dbhq.uk/diagnostics/">Diagnostics</a> &middot;
   <a href="https://dbhq.uk/reference/">Reference</a> &middot;
-  <a href="https://dbhq.uk/skills/">Skills</a> &middot;
+  <a href="https://skills.dbhq.uk">Skills</a> &middot;
   <a href="https://www.linkedin.com/in/danielgrimes/">LinkedIn</a> &middot;
   <a href="https://dbhq.uk/contact/">Contact</a>
 </p>
@@ -53,7 +53,7 @@ Everything below is public and free to use.
 
 ### Tools
 
-<h4><a href="https://github.com/dbhq-uk/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="24" align="top"></a> heliograph</h4>
+<h4><a href="https://github.com/heliograph-io/heliograph"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/heliograph-240.png" alt="" width="24" align="top"></a> heliograph</h4>
 
 **Remote, captured, auditable execution on a machine you cannot log into**
 
@@ -110,7 +110,7 @@ Fourteen of them, built from real delivery work and given away. Every one is doc
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/vela-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-vela-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/vela-skill"><strong>vela</strong></a></td>
-    <td>Compiler-exact code search for .NET: definitions, references, callers, change impact. Roslyn-backed, so Razor and Blazor are indexed</td>
+    <td>Compiler-exact code search over a SCIP index: definitions, references, callers, change impact. .NET natively through Roslyn, so Razor and Blazor are indexed; every other language through its own SCIP indexer</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/garmin-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-garmin-240.png" alt="" width="40"></a></td>
