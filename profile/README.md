@@ -67,11 +67,11 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 - **MCP server** - the same commands as typed tools, for an agent running the investigation itself
 - **Agent skill** - drives the CLI from Claude Code or Codex, and installs from the marketplace below
 
-[**heliograph-io/heliograph**](https://github.com/heliograph-io/heliograph) &middot; [docs.heliograph.io](https://docs.heliograph.io) &middot; [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) &middot; MIT
+[**heliograph-io/heliograph**](https://github.com/heliograph-io/heliograph) &middot; [docs.heliograph.io](https://docs.heliograph.io) &middot; [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) &middot; Apache 2.0, and FSL-1.1-ALv2 for the relay
 
 ### Agent Skills
 
-Fourteen of them, built from real delivery work and given away. Every one is documented at **[skills.dbhq.uk](https://skills.dbhq.uk)**. Add the DBHQ marketplace once, then install any of them:
+Built from real delivery work and given away. Every one is documented at **[skills.dbhq.uk](https://skills.dbhq.uk)**. Add the DBHQ marketplace once, then install any of them:
 
 ```
 /plugin marketplace add dbhq-uk/marketplace
@@ -90,7 +90,7 @@ Fourteen of them, built from real delivery work and given away. Every one is doc
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/trello-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-trello-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/trello-skill"><strong>trello</strong></a></td>
-    <td>Boards, lists and cards end to end, plus a board digest, a due-date radar for what is slipping, and smart sorting</td>
+    <td>Boards, lists and cards end to end, a status digest for a board, and a radar for what is due across every board</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/legwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-legwork-240.png" alt="" width="40"></a></td>
@@ -105,22 +105,22 @@ Fourteen of them, built from real delivery work and given away. Every one is doc
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/verve-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-verve-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/verve-skill"><strong>verve</strong></a></td>
-    <td>Strips AI tells from prose and puts a human voice back, in British English. Every figure, name and claim survives untouched</td>
+    <td>Strips AI tells from prose and puts a human voice back, in British or American English. Every figure, name and claim survives untouched</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/vela-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-vela-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/vela-skill"><strong>vela</strong></a></td>
-    <td>Compiler-exact code search over a SCIP index: definitions, references, callers, change impact. .NET natively through Roslyn, so Razor and Blazor are indexed; every other language through its own SCIP indexer</td>
+    <td>Compiler-exact code search over a SCIP index: definitions, references, direct callers and what implements it. .NET natively through Roslyn, so Razor and Blazor are indexed; every other language through its own SCIP indexer</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/garmin-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-garmin-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/garmin-skill"><strong>garmin</strong></a></td>
-    <td>Body Battery, sleep, activities and training load, answered in the conversation - or archived to markdown you keep. Credentials never leave your machine</td>
+    <td>Body Battery, sleep, activities and training load, answered in the conversation - or archived to markdown you keep. Your password is never stored, and it talks to Garmin and nothing else</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/imager-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-imager-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/imager-skill"><strong>imager</strong></a></td>
-    <td>Generate and edit images with OpenAI's GPT Image 2. Iterate on drafts at a fraction of a penny, then pay once for the one you approved</td>
+    <td>Generate and edit images with OpenAI's GPT Image models, gpt-image-2.5-flare by default. Iterate on drafts at a fraction of a penny, then pay once for the one you approved</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/gitview-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-gitview-240.png" alt="" width="40"></a></td>
@@ -130,12 +130,12 @@ Fourteen of them, built from real delivery work and given away. Every one is doc
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/atlassian-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-atlassian-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/atlassian-skill"><strong>atlassian</strong></a></td>
-    <td>Jira issues raised and read, and Confluence pages searched, written and updated - over the REST API with an API token and no MCP server</td>
+    <td>Jira issues raised, read, commented on and moved through their workflow, and Confluence pages searched, written and updated - over the REST API with an API token and no MCP server. Never deletes</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/pennyblack-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-pennyblack-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/pennyblack-skill"><strong>pennyblack</strong></a></td>
-    <td>Put a PDF in the post. Printed in the UK, delivered by Royal Mail, priced and previewed before it spends, with the tracking number handed back</td>
+    <td>Put a PDF in the post. Printed in the UK, delivered by Royal Mail, priced and previewed before it spends, with the tracking number recorded once Royal Mail issues it</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/buildwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-buildwork-240.png" alt="" width="40"></a></td>
@@ -150,7 +150,7 @@ Fourteen of them, built from real delivery work and given away. Every one is doc
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/groupwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-groupwork-240.png" alt="" width="40"></a></td>
     <td nowrap><a href="https://github.com/dbhq-uk/groupwork-skill"><strong>groupwork</strong></a></td>
-    <td>Puts a second agent on the work, as an adversary or as a partner. What each pattern is refused is enforced in code, so a citation cannot overclaim</td>
+    <td>Blind, independent review by a second model, before something ships. Four patterns, and every run records what it was not shown, so a citation cannot overclaim</td>
   </tr>
   <tr>
     <td align="center" width="64"><a href="https://github.com/dbhq-uk/headwork-skill"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/skill-headwork-240.png" alt="" width="40"></a></td>
