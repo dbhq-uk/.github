@@ -1,0 +1,18 @@
+version: 2
+updates:
+  # GitHub Actions only: this repository holds the org profile and the shared
+  # skill-floor workflow, and the workflow's pinned actions are the only
+  # dependencies here. Every skill repository's own Dependabot then moves its
+  # pin on the floor. No custom labels: Dependabot's defaults create
+  # themselves, and a named label that does not exist fails the update.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    commit-message:
+      prefix: "ci"
+    groups:
+      actions:
+        patterns:
+          - "*"
