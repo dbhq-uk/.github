@@ -7,6 +7,13 @@
 #     floor:
 #       uses: dbhq-uk/.github/.github/workflows/skill-floor.yml@<full sha>
 #
+# Releasing a change: merge it, then tag the merge commit skill-floor-vX.Y.Z
+# (the first release, the commit every caller pinned on 25 Sep 2026, is
+# skill-floor-v1.0.0). Dependabot moves a SHA pin only when this repository
+# has a newer version tag, so a change merged here and left untagged reaches
+# no caller. The prefix keeps this version line apart from anything else
+# this repository holds.
+#
 # Why it lives here and not in each repository: until 25 Sep 2026 every skill
 # repository carried its own copy of these checks, and the copies drifted.
 # One repository shipped a SKILL.md whose frontmatter was not valid YAML while
