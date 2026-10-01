@@ -57,14 +57,14 @@ Everything below is public and free to use.
 
 **Remote, captured, auditable execution on a machine you cannot log into**
 
-Someone can reach the machine, you cannot, and you are the one who knows what to ask it. You publish a step, it runs on the far side, and the whole run comes back as a log with every line stamped in UTC - so a hang reads as a gap rather than as slow progress, and the log returns whether the run passed or failed. Nothing is installed on the far side: the station is plain bash the operator can read before running it, and it does not tunnel, proxy or hold a connection open to anything.
+Someone can reach the machine, you cannot, and you are the one who knows what to ask it. You publish a step, it runs on the far side, and the whole run comes back as a log with every line stamped in UTC - so a hang reads as a gap rather than as slow progress, and the log returns whether the run passed or failed. The station is plain text the operator can read before running it, and today it does not tunnel, proxy or hold a connection open to anything.
 
 A toolkit rather than a single tool, and the agent skill is one part of it:
 
 - **CLI** - one static Go binary, no runtime, carrying the station payload it was built with
-- **Station** - the far side, in plain bash. Bash 4, git and coreutils, and no Go will ever appear in it
+- **Station** - the far side, in plain bash or PowerShell. Bash 4 and git, or the Windows PowerShell already on the box. The relay or a trusted set of keys adds one compiled binary, `heliograph-seal`, beside a bash station
 - **Relay** - both sides dial out over ordinary HTTPS, and it cannot read a byte of what it carries
-- **MCP server** - the same commands as typed tools, for an agent running the investigation itself
+- **MCP server** - a local server over stdio that runs the loop as typed tools - send, wait, cancel, stop, read the log - for an agent running the investigation itself. Setup stays on the CLI
 - **Agent skill** - drives the CLI from Claude Code or Codex, and installs from the marketplace below
 
 [**heliograph-io/heliograph**](https://github.com/heliograph-io/heliograph) &middot; [docs.heliograph.io](https://docs.heliograph.io) &middot; [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) &middot; Apache 2.0, and FSL-1.1-ALv2 for the relay
