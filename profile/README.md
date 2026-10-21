@@ -69,6 +69,14 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 
 [**heliograph-io/heliograph**](https://github.com/heliograph-io/heliograph) &middot; [docs.heliograph.io](https://docs.heliograph.io) &middot; [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) &middot; Apache 2.0, and FSL-1.1-ALv2 for the relay
 
+<h4><a href="https://gannet.dbhq.uk"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/gannet-240.png" alt="" width="24" align="top"></a> gannet</h4>
+
+**An open-source deep research agent, built to cite every claim. In development, not released yet**
+
+Give it a question and it is designed to plan the research, search the web, weigh each source and write a report in which every claim is cited to a page the run actually fetched. Sources get IDs when they are fetched and the writer may cite only those, so a citation cannot point at a page nobody read. C# on .NET 10 and Microsoft Agent Framework Workflows, with your choice of model and search service per run, and no search result text written to disk. The citation checking, credibility scoring and report export are merged; the providers, the workflow and the interfaces are being built in the open.
+
+[**dbhq-uk/gannet**](https://github.com/dbhq-uk/gannet) &middot; [gannet.dbhq.uk](https://gannet.dbhq.uk) &middot; MIT
+
 ### Agent Skills
 
 Built from real delivery work and given away. Every one is documented at **[skills.dbhq.uk](https://skills.dbhq.uk)**. Add the DBHQ marketplace once, then install any of them:
