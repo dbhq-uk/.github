@@ -69,7 +69,7 @@ A toolkit rather than a single tool, and the agent skill is one part of it:
 
 [**heliograph-io/heliograph**](https://github.com/heliograph-io/heliograph) &middot; [docs.heliograph.io](https://docs.heliograph.io) &middot; [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) &middot; Apache 2.0, and FSL-1.1-ALv2 for the relay
 
-<h4><a href="https://gannet.dbhq.uk"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/gannet-240.png" alt="" width="24" align="top"></a> gannet</h4>
+<h4><a href="https://gannet.dbhq.uk"><img src="https://raw.githubusercontent.com/dbhq-uk/.github/main/profile/assets/gannet-240.png" alt="" width="24" align="top"></a> Gannet</h4>
 
 **An open-source deep research agent, built to cite every claim. In development, not released yet**
 
